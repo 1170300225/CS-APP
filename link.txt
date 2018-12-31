@@ -1,0 +1,3155 @@
+Breakpoint 1, 0x0000555555554660 in _start ()
+(gdb) si
+0x0000555555554662 in _start ()
+(gdb) 
+0x0000555555554665 in _start ()
+(gdb) 
+0x0000555555554666 in _start ()
+(gdb) 
+0x0000555555554669 in _start ()
+(gdb) 
+0x000055555555466d in _start ()
+(gdb) 
+0x000055555555466e in _start ()
+(gdb) 
+0x000055555555466f in _start ()
+(gdb) 
+0x0000555555554676 in _start ()
+(gdb) 
+0x000055555555467d in _start ()
+(gdb) 
+0x0000555555554684 in _start ()
+(gdb) 
+__libc_start_main (main=0x55555555476a <main>, argc=1, argv=0x7fffffffdf88, 
+    init=0x5555555547f0 <__libc_csu_init>, fini=0x555555554860 <__libc_csu_fini>, 
+    rtld_fini=0x7ffff7de59a0 <_dl_fini>, stack_end=0x7fffffffdf78) at ../csu/libc-start.c:137
+137	../csu/libc-start.c: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7a05ab2	137	in ../csu/libc-start.c
+(gdb) 
+0x00007ffff7a05ab4	137	in ../csu/libc-start.c
+(gdb) 
+0x00007ffff7a05ab6	137	in ../csu/libc-start.c
+(gdb) 
+0x00007ffff7a05ab7	137	in ../csu/libc-start.c
+(gdb) 
+0x00007ffff7a05ab8	137	in ../csu/libc-start.c
+(gdb) 
+0x00007ffff7a05abb	137	in ../csu/libc-start.c
+(gdb) 
+137	in ../csu/libc-start.c
+(gdb) 
+141	in ../csu/libc-start.c
+(gdb) 
+137	in ../csu/libc-start.c
+(gdb) 
+0x00007ffff7a05ad3	137	in ../csu/libc-start.c
+(gdb) 
+141	in ../csu/libc-start.c
+(gdb) 
+0x00007ffff7a05ada	141	in ../csu/libc-start.c
+(gdb) 
+239	in ../csu/libc-start.c
+(gdb) 
+141	in ../csu/libc-start.c
+(gdb) 
+239	in ../csu/libc-start.c
+(gdb) 
+240	in ../csu/libc-start.c
+(gdb) 
+0x00007ffff7a05af2	240	in ../csu/libc-start.c
+(gdb) 
+0x00007ffff7a05af4	240	in ../csu/libc-start.c
+(gdb) 
+0x00007ffff7a05af7	240	in ../csu/libc-start.c
+(gdb) 
+__GI___cxa_atexit (func=0x7ffff7de59a0 <_dl_fini>, arg=arg@entry=0x0, d=d@entry=0x0)
+    at cxa_atexit.c:65
+65	cxa_atexit.c: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7a27432	65	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a27434	65	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a27437	65	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a27438	65	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a27439	65	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a2743c	65	in cxa_atexit.c
+(gdb) 
+__internal_atexit (listp=0x7ffff7dcf718 <__exit_funcs>, d=0x0, arg=0x0, 
+    func=0x7ffff7de59a0 <_dl_fini>) at cxa_atexit.c:39
+39	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a27444	39	in cxa_atexit.c
+(gdb) 
+__GI___cxa_atexit (func=0x7ffff7de59a0 <_dl_fini>, arg=arg@entry=0x0, d=d@entry=0x0)
+    at cxa_atexit.c:65
+65	in cxa_atexit.c
+(gdb) 
+__internal_atexit (listp=0x7ffff7dcf718 <__exit_funcs>, d=0x0, arg=0x0, 
+    func=0x7ffff7de59a0 <_dl_fini>) at cxa_atexit.c:39
+39	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a27451	39	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a27458	39	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a27462	39	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a27465	39	in cxa_atexit.c
+(gdb) 
+40	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a27484	40	in cxa_atexit.c
+(gdb) 
+__new_exitfn (listp=listp@entry=0x7ffff7dcf718 <__exit_funcs>) at cxa_atexit.c:84
+84	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a27227	84	in cxa_atexit.c
+(gdb) 
+78	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a2722e	78	in cxa_atexit.c
+(gdb) 
+79	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a27232	79	in cxa_atexit.c
+(gdb) 
+78	in cxa_atexit.c
+(gdb) 
+89	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a2723c	89	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a2723f	89	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a27242	89	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a27248	89	in cxa_atexit.c
+(gdb) 
+91	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a27254	91	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a27257	91	in cxa_atexit.c
+(gdb) 
+89	in cxa_atexit.c
+(gdb) 
+99	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a272a2	99	in cxa_atexit.c
+(gdb) 
+89	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a272a8	89	in cxa_atexit.c
+(gdb) 
+120	in cxa_atexit.c
+(gdb) 
+121	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a2731c	121	in cxa_atexit.c
+(gdb) 
+134	in cxa_atexit.c
+(gdb) 
+135	in cxa_atexit.c
+(gdb) 
+139	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a272e5	139	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a272e6	139	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a272e7	139	in cxa_atexit.c
+(gdb) 
+__internal_atexit (listp=0x7ffff7dcf718 <__exit_funcs>, d=0x0, arg=0x0, 
+    func=0x7ffff7de59a0 <_dl_fini>) at cxa_atexit.c:42
+42	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a2748c	42	in cxa_atexit.c
+(gdb) 
+49	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a27497	49	in cxa_atexit.c
+(gdb) 
+52	in cxa_atexit.c
+(gdb) 
+51	in cxa_atexit.c
+(gdb) 
+53	in cxa_atexit.c
+(gdb) 
+54	in cxa_atexit.c
+(gdb) 
+55	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a274b5	55	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a274be	55	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a274c0	55	in cxa_atexit.c
+(gdb) 
+56	in cxa_atexit.c
+(gdb) 
+__GI___cxa_atexit (func=<optimized out>, arg=arg@entry=0x0, d=d@entry=0x0) at cxa_atexit.c:67
+67	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a274de	67	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a274df	67	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a274e0	67	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a274e2	67	in cxa_atexit.c
+(gdb) 
+0x00007ffff7a274e4	67	in cxa_atexit.c
+(gdb) 
+__libc_start_main (main=0x55555555476a <main>, argc=1, argv=0x7fffffffdf88, 
+    init=0x5555555547f0 <__libc_csu_init>, fini=<optimized out>, rtld_fini=<optimized out>, 
+    stack_end=0x7fffffffdf78) at ../csu/libc-start.c:262
+262	../csu/libc-start.c: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7a05b03	262	in ../csu/libc-start.c
+(gdb) 
+0x00007ffff7a05b05	262	in ../csu/libc-start.c
+(gdb) 
+0x00007ffff7a05b08	262	in ../csu/libc-start.c
+(gdb) 
+265	in ../csu/libc-start.c
+(gdb) 
+0x00007ffff7a05b11	265	in ../csu/libc-start.c
+(gdb) 
+266	in ../csu/libc-start.c
+(gdb) 
+0x00007ffff7a05b1a	266	in ../csu/libc-start.c
+(gdb) 
+0x00007ffff7a05b1f	266	in ../csu/libc-start.c
+(gdb) 
+0x00007ffff7a05b23	266	in ../csu/libc-start.c
+(gdb) 
+0x00007ffff7a05b26	266	in ../csu/libc-start.c
+(gdb) 
+0x00005555555547f0 in __libc_csu_init ()
+(gdb) 
+0x00005555555547f2 in __libc_csu_init ()
+(gdb) 
+0x00005555555547f4 in __libc_csu_init ()
+(gdb) 
+0x00005555555547f7 in __libc_csu_init ()
+(gdb) 
+0x00005555555547f9 in __libc_csu_init ()
+(gdb) 
+0x00005555555547fb in __libc_csu_init ()
+(gdb) 
+0x0000555555554802 in __libc_csu_init ()
+(gdb) 
+0x0000555555554803 in __libc_csu_init ()
+(gdb) 
+0x000055555555480a in __libc_csu_init ()
+(gdb) 
+0x000055555555480b in __libc_csu_init ()
+(gdb) 
+0x000055555555480e in __libc_csu_init ()
+(gdb) 
+0x0000555555554811 in __libc_csu_init ()
+(gdb) 
+0x0000555555554814 in __libc_csu_init ()
+(gdb) 
+0x0000555555554818 in __libc_csu_init ()
+(gdb) 
+0x000055555555481c in __libc_csu_init ()
+(gdb) 
+0x00005555555545d0 in _init ()
+(gdb) 
+0x00005555555545d4 in _init ()
+(gdb) 
+0x00005555555545db in _init ()
+(gdb) 
+0x00005555555545de in _init ()
+(gdb) 
+0x00005555555545e2 in _init ()
+(gdb) 
+0x00005555555545e6 in _init ()
+(gdb) 
+0x0000555555554821 in __libc_csu_init ()
+(gdb) 
+0x0000555555554824 in __libc_csu_init ()
+(gdb) 
+0x0000555555554826 in __libc_csu_init ()
+(gdb) 
+0x0000555555554828 in __libc_csu_init ()
+(gdb) 
+0x0000555555554830 in __libc_csu_init ()
+(gdb) 
+0x0000555555554833 in __libc_csu_init ()
+(gdb) 
+0x0000555555554836 in __libc_csu_init ()
+(gdb) 
+0x0000555555554839 in __libc_csu_init ()
+(gdb) 
+0x0000555555554760 in frame_dummy ()
+(gdb) 
+0x0000555555554761 in frame_dummy ()
+(gdb) 
+0x0000555555554764 in frame_dummy ()
+(gdb) 
+0x0000555555554765 in frame_dummy ()
+(gdb) 
+0x00005555555546d0 in register_tm_clones ()
+(gdb) 
+0x00005555555546d7 in register_tm_clones ()
+(gdb) 
+0x00005555555546de in register_tm_clones ()
+(gdb) 
+0x00005555555546df in register_tm_clones ()
+(gdb) 
+0x00005555555546e2 in register_tm_clones ()
+(gdb) 
+0x00005555555546e5 in register_tm_clones ()
+(gdb) 
+0x00005555555546e9 in register_tm_clones ()
+(gdb) 
+0x00005555555546ec in register_tm_clones ()
+(gdb) 
+0x00005555555546f0 in register_tm_clones ()
+(gdb) 
+0x00005555555546f3 in register_tm_clones ()
+(gdb) 
+0x00005555555546f6 in register_tm_clones ()
+(gdb) 
+0x0000555555554710 in register_tm_clones ()
+(gdb) 
+0x0000555555554711 in register_tm_clones ()
+(gdb) 
+0x000055555555483d in __libc_csu_init ()
+(gdb) 
+0x0000555555554841 in __libc_csu_init ()
+(gdb) 
+0x0000555555554844 in __libc_csu_init ()
+(gdb) 
+0x0000555555554846 in __libc_csu_init ()
+(gdb) 
+0x000055555555484a in __libc_csu_init ()
+(gdb) 
+0x000055555555484b in __libc_csu_init ()
+(gdb) 
+0x000055555555484c in __libc_csu_init ()
+(gdb) 
+0x000055555555484e in __libc_csu_init ()
+(gdb) 
+0x0000555555554850 in __libc_csu_init ()
+(gdb) 
+0x0000555555554852 in __libc_csu_init ()
+(gdb) 
+0x0000555555554854 in __libc_csu_init ()
+(gdb) 
+__libc_start_main (main=0x55555555476a <main>, argc=1, argv=0x7fffffffdf88, 
+    init=0x5555555547f0 <__libc_csu_init>, fini=<optimized out>, rtld_fini=<optimized out>, 
+    stack_end=0x7fffffffdf78) at ../csu/libc-start.c:270
+270	in ../csu/libc-start.c
+(gdb) 
+0x00007ffff7a05b2f	270	in ../csu/libc-start.c
+(gdb) 
+0x00007ffff7a05b35	270	in ../csu/libc-start.c
+(gdb) 
+0x00007ffff7a05b37	270	in ../csu/libc-start.c
+(gdb) 
+285	in ../csu/libc-start.c
+(gdb) 
+0x00007ffff7a05b3f	285	in ../csu/libc-start.c
+(gdb) 
+297	in ../csu/libc-start.c
+(gdb) 
+0x00007ffff7a05b4a	297	in ../csu/libc-start.c
+(gdb) 
+_setjmp () at ../sysdeps/x86_64/bsd-_setjmp.S:30
+30	../sysdeps/x86_64/bsd-_setjmp.S: 没有那个文件或目录.
+(gdb) 
+32	in ../sysdeps/x86_64/bsd-_setjmp.S
+(gdb) 
+__sigsetjmp () at ../sysdeps/x86_64/setjmp.S:26
+26	../sysdeps/x86_64/setjmp.S: 没有那个文件或目录.
+(gdb) 
+35	in ../sysdeps/x86_64/setjmp.S
+(gdb) 
+36	in ../sysdeps/x86_64/setjmp.S
+(gdb) 
+0x00007ffff7a22b7f	36	in ../sysdeps/x86_64/setjmp.S
+(gdb) 
+37	in ../sysdeps/x86_64/setjmp.S
+(gdb) 
+41	in ../sysdeps/x86_64/setjmp.S
+(gdb) 
+42	in ../sysdeps/x86_64/setjmp.S
+(gdb) 
+43	in ../sysdeps/x86_64/setjmp.S
+(gdb) 
+44	in ../sysdeps/x86_64/setjmp.S
+(gdb) 
+45	in ../sysdeps/x86_64/setjmp.S
+(gdb) 
+47	in ../sysdeps/x86_64/setjmp.S
+(gdb) 
+0x00007ffff7a22ba5	47	in ../sysdeps/x86_64/setjmp.S
+(gdb) 
+49	in ../sysdeps/x86_64/setjmp.S
+(gdb) 
+50	in ../sysdeps/x86_64/setjmp.S
+(gdb) 
+51	in ../sysdeps/x86_64/setjmp.S
+(gdb) 
+53	in ../sysdeps/x86_64/setjmp.S
+(gdb) 
+0x00007ffff7a22bbb	53	in ../sysdeps/x86_64/setjmp.S
+(gdb) 
+55	in ../sysdeps/x86_64/setjmp.S
+(gdb) 
+63	in ../sysdeps/x86_64/setjmp.S
+(gdb) 
+__sigjmp_save (env=0x7fffffffded0, savemask=0) at sigjmp.c:29
+29	sigjmp.c: 没有那个文件或目录.
+(gdb) 
+28	in sigjmp.c
+(gdb) 
+28	in sigjmp.c
+(gdb) 
+29	in sigjmp.c
+(gdb) 
+0x00007ffff7a22bed	29	in sigjmp.c
+(gdb) 
+34	in sigjmp.c
+(gdb) 
+0x00007ffff7a22bf2	34	in sigjmp.c
+(gdb) 
+0x00007ffff7a22bf3	34	in sigjmp.c
+(gdb) 
+__libc_start_main (main=0x55555555476a <main>, argc=1, argv=0x7fffffffdf88, init=<optimized out>, 
+    fini=<optimized out>, rtld_fini=<optimized out>, stack_end=0x7fffffffdf78)
+    at ../csu/libc-start.c:298
+298	../csu/libc-start.c: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7a05b51	298	in ../csu/libc-start.c
+(gdb) 
+303	in ../csu/libc-start.c
+(gdb) 
+0x00007ffff7a05b5c	303	in ../csu/libc-start.c
+(gdb) 
+304	in ../csu/libc-start.c
+(gdb) 
+0x00007ffff7a05b6a	304	in ../csu/libc-start.c
+(gdb) 
+307	in ../csu/libc-start.c
+(gdb) 
+0x00007ffff7a05b74	307	in ../csu/libc-start.c
+(gdb) 
+310	in ../csu/libc-start.c
+(gdb) 
+0x00007ffff7a05b84	310	in ../csu/libc-start.c
+(gdb) 
+0x00007ffff7a05b89	310	in ../csu/libc-start.c
+(gdb) 
+0x00007ffff7a05b8d	310	in ../csu/libc-start.c
+(gdb) 
+0x00007ffff7a05b90	310	in ../csu/libc-start.c
+(gdb) 
+0x00007ffff7a05b95	310	in ../csu/libc-start.c
+(gdb) 
+0x000055555555476a in main ()
+(gdb) 
+0x000055555555476b in main ()
+(gdb) 
+0x000055555555476e in main ()
+(gdb) 
+0x0000555555554772 in main ()
+(gdb) 
+0x0000555555554775 in main ()
+(gdb) 
+0x0000555555554779 in main ()
+(gdb) 
+0x000055555555477d in main ()
+(gdb) 
+0x000055555555477f in main ()
+(gdb) 
+0x0000555555554786 in main ()
+(gdb) 
+0x0000555555554600 in puts@plt ()
+(gdb) 
+
+_IO_puts (str=0x555555554874 "Usage: Hello 学号 姓名！") at ioputs.c:33
+33	ioputs.c: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7a649c2	33	in ioputs.c
+(gdb) 
+0x00007ffff7a649c4	33	in ioputs.c
+(gdb) 
+0x00007ffff7a649c7	33	in ioputs.c
+(gdb) 
+0x00007ffff7a649c8	33	in ioputs.c
+(gdb) 
+0x00007ffff7a649c9	33	in ioputs.c
+(gdb) 
+35	in ioputs.c
+(gdb) 
+0x00007ffff7a05100 in *ABS*+0x9dc70@plt () from /lib/x86_64-linux-gnu/libc.so.6
+(gdb) 
+__strlen_avx2 () at ../sysdeps/x86_64/multiarch/strlen-avx2.S:52
+52	../sysdeps/x86_64/multiarch/strlen-avx2.S: 没有那个文件或目录.
+(gdb) 
+53	in ../sysdeps/x86_64/multiarch/strlen-avx2.S
+(gdb) 
+54	in ../sysdeps/x86_64/multiarch/strlen-avx2.S
+(gdb) 
+57	in ../sysdeps/x86_64/multiarch/strlen-avx2.S
+(gdb) 
+58	in ../sysdeps/x86_64/multiarch/strlen-avx2.S
+(gdb) 
+59	in ../sysdeps/x86_64/multiarch/strlen-avx2.S
+(gdb) 
+91	in ../sysdeps/x86_64/multiarch/strlen-avx2.S
+(gdb) 
+92	in ../sysdeps/x86_64/multiarch/strlen-avx2.S
+(gdb) 
+93	in ../sysdeps/x86_64/multiarch/strlen-avx2.S
+(gdb) 
+94	in ../sysdeps/x86_64/multiarch/strlen-avx2.S
+(gdb) 
+96	in ../sysdeps/x86_64/multiarch/strlen-avx2.S
+(gdb) 
+97	in ../sysdeps/x86_64/multiarch/strlen-avx2.S
+(gdb) 
+98	in ../sysdeps/x86_64/multiarch/strlen-avx2.S
+(gdb) 
+128	in ../sysdeps/x86_64/multiarch/strlen-avx2.S
+(gdb) 
+138	in ../sysdeps/x86_64/multiarch/strlen-avx2.S
+(gdb) 
+139	in ../sysdeps/x86_64/multiarch/strlen-avx2.S
+(gdb) 
+140	in ../sysdeps/x86_64/multiarch/strlen-avx2.S
+(gdb) 
+141	in ../sysdeps/x86_64/multiarch/strlen-avx2.S
+(gdb) 
+332	in ../sysdeps/x86_64/multiarch/strlen-avx2.S
+(gdb) 
+333	in ../sysdeps/x86_64/multiarch/strlen-avx2.S
+(gdb) 
+334	in ../sysdeps/x86_64/multiarch/strlen-avx2.S
+(gdb) 
+338	in ../sysdeps/x86_64/multiarch/strlen-avx2.S
+(gdb) 
+__strlen_avx2 () at ../sysdeps/x86_64/multiarch/strlen-avx2.S:339
+339	in ../sysdeps/x86_64/multiarch/strlen-avx2.S
+(gdb) 
+_IO_puts (str=0x555555554874 "Usage: Hello 学号 姓名！") at ioputs.c:36
+36	ioputs.c: 没有那个文件或目录.
+(gdb) 
+35	in ioputs.c
+(gdb) 
+36	in ioputs.c
+(gdb) 
+0x00007ffff7a649df	36	in ioputs.c
+(gdb) 
+0x00007ffff7a649e2	36	in ioputs.c
+(gdb) 
+0x00007ffff7a649e7	36	in ioputs.c
+(gdb) 
+0x00007ffff7a649e9	36	in ioputs.c
+(gdb) 
+0x00007ffff7a649f0	36	in ioputs.c
+(gdb) 
+0x00007ffff7a649f9	36	in ioputs.c
+(gdb) 
+0x00007ffff7a649fd	36	in ioputs.c
+(gdb) 
+0x00007ffff7a649ff	36	in ioputs.c
+(gdb) 
+0x00007ffff7a64a04	36	in ioputs.c
+(gdb) 
+0x00007ffff7a64a0b	36	in ioputs.c
+(gdb) 
+0x00007ffff7a64a15	36	in ioputs.c
+(gdb) 
+0x00007ffff7a64a18	36	in ioputs.c
+(gdb) 
+0x00007ffff7a64a30	36	in ioputs.c
+(gdb) 
+0x00007ffff7a64a37	36	in ioputs.c
+(gdb) 
+0x00007ffff7a64a3e	36	in ioputs.c
+(gdb) 
+0x00007ffff7a64a42	36	in ioputs.c
+(gdb) 
+39	in ioputs.c
+(gdb) 
+0x00007ffff7a64a4c	39	in ioputs.c
+(gdb) 
+0x00007ffff7a64a4e	39	in ioputs.c
+(gdb) 
+0x00007ffff7a64a54	39	in ioputs.c
+(gdb) 
+40	in ioputs.c
+(gdb) 
+IO_validate_vtable (vtable=0x7ffff7dcc2a0 <_IO_file_jumps>) at libioP.h:870
+870	libioP.h: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7a64a6c	870	in libioP.h
+(gdb) 
+0x00007ffff7a64a73	870	in libioP.h
+(gdb) 
+872	in libioP.h
+(gdb) 
+0x00007ffff7a64a79	872	in libioP.h
+(gdb) 
+873	in libioP.h
+(gdb) 
+0x00007ffff7a64a7f	873	in libioP.h
+(gdb) 
+_IO_puts (str=0x555555554874 "Usage: Hello 学号 姓名！") at ioputs.c:40
+40	ioputs.c: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7a64a88	40	in ioputs.c
+(gdb) 
+0x00007ffff7a64a8b	40	in ioputs.c
+(gdb) 
+_IO_new_file_xsputn (f=0x7ffff7dd0760 <_IO_2_1_stdout_>, data=0x555555554874, n=29)
+    at fileops.c:1220
+1220	fileops.c: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7a6f932	1220	in fileops.c
+(gdb) 
+0x00007ffff7a6f934	1220	in fileops.c
+(gdb) 
+0x00007ffff7a6f936	1220	in fileops.c
+(gdb) 
+1227	in fileops.c
+(gdb) 
+1220	in fileops.c
+(gdb) 
+0x00007ffff7a6f93c	1220	in fileops.c
+(gdb) 
+0x00007ffff7a6f93d	1220	in fileops.c
+(gdb) 
+1226	in fileops.c
+(gdb) 
+0x00007ffff7a6f944	1226	in fileops.c
+(gdb) 
+0x00007ffff7a6f946	1226	in fileops.c
+(gdb) 
+0x00007ffff7a6f949	1226	in fileops.c
+(gdb) 
+0x00007ffff7a6f94c	1226	in fileops.c
+(gdb) 
+1233	in fileops.c
+(gdb) 
+0x00007ffff7a6f951	1233	in fileops.c
+(gdb) 
+0x00007ffff7a6f955	1233	in fileops.c
+(gdb) 
+0x00007ffff7a6f95a	1233	in fileops.c
+(gdb) 
+0x00007ffff7a6f95f	1233	in fileops.c
+(gdb) 
+1250	in fileops.c
+(gdb) 
+0x00007ffff7a6f969	1250	in fileops.c
+(gdb) 
+0x00007ffff7a6f96c	1250	in fileops.c
+(gdb) 
+1250	in fileops.c
+(gdb) 
+1266	in fileops.c
+(gdb) 
+IO_validate_vtable (vtable=0x7ffff7dcc2a0 <_IO_file_jumps>) at libioP.h:870
+870	libioP.h: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7a6f9c9	870	in libioP.h
+(gdb) 
+0x00007ffff7a6f9d0	870	in libioP.h
+(gdb) 
+872	in libioP.h
+(gdb) 
+0x00007ffff7a6f9d6	872	in libioP.h
+(gdb) 
+873	in libioP.h
+(gdb) 
+0x00007ffff7a6f9dc	873	in libioP.h
+(gdb) 
+_IO_new_file_xsputn (f=0x7ffff7dd0760 <_IO_2_1_stdout_>, data=<optimized out>, n=29)
+    at fileops.c:1266
+1266	fileops.c: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7a6f9e7	1266	in fileops.c
+(gdb) 
+0x00007ffff7a6f9ea	1266	in fileops.c
+(gdb) 
+_IO_new_file_overflow (f=0x7ffff7dd0760 <_IO_2_1_stdout_>, ch=-1) at fileops.c:747
+747	in fileops.c
+(gdb) 
+0x00007ffff7a71302	747	in fileops.c
+(gdb) 
+0x00007ffff7a71305	747	in fileops.c
+(gdb) 
+754	in fileops.c
+(gdb) 
+746	in fileops.c
+(gdb) 
+0x00007ffff7a71310	746	in fileops.c
+(gdb) 
+0x00007ffff7a71311	746	in fileops.c
+(gdb) 
+0x00007ffff7a71313	746	in fileops.c
+(gdb) 
+0x00007ffff7a71314	746	in fileops.c
+(gdb) 
+0x00007ffff7a71317	746	in fileops.c
+(gdb) 
+754	in fileops.c
+(gdb) 
+757	in fileops.c
+(gdb) 
+0x00007ffff7a71373	757	in fileops.c
+(gdb) 
+759	in fileops.c
+(gdb) 
+0x00007ffff7a71493	759	in fileops.c
+(gdb) 
+__GI__IO_doallocbuf (fp=fp@entry=0x7ffff7dd0760 <_IO_2_1_stdout_>) at genops.c:362
+362	genops.c: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7a72305	362	in genops.c
+(gdb) 
+361	in genops.c
+(gdb) 
+0x00007ffff7a72312	361	in genops.c
+(gdb) 
+0x00007ffff7a72313	361	in genops.c
+(gdb) 
+364	in genops.c
+(gdb) 
+0x00007ffff7a72316	364	in genops.c
+(gdb) 
+0x00007ffff7a72319	364	in genops.c
+(gdb) 
+0x00007ffff7a7231b	364	in genops.c
+(gdb) 
+365	in genops.c
+(gdb) 
+IO_validate_vtable (vtable=0x7ffff7dcc2a0 <_IO_file_jumps>) at libioP.h:870
+870	libioP.h: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7a7235e	870	in libioP.h
+(gdb) 
+0x00007ffff7a72365	870	in libioP.h
+(gdb) 
+872	in libioP.h
+(gdb) 
+0x00007ffff7a7236b	872	in libioP.h
+(gdb) 
+873	in libioP.h
+(gdb) 
+0x00007ffff7a72371	873	in libioP.h
+(gdb) 
+__GI__IO_doallocbuf (fp=fp@entry=0x7ffff7dd0760 <_IO_2_1_stdout_>) at genops.c:365
+365	genops.c: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7a72376	365	in genops.c
+(gdb) 
+__GI__IO_file_doallocate (fp=0x7ffff7dd0760 <_IO_2_1_stdout_>) at filedoalloc.c:78
+78	filedoalloc.c: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7a62102	78	in filedoalloc.c
+(gdb) 
+0x00007ffff7a62103	78	in filedoalloc.c
+(gdb) 
+0x00007ffff7a62106	78	in filedoalloc.c
+(gdb) 
+0x00007ffff7a62107	78	in filedoalloc.c
+(gdb) 
+78	in filedoalloc.c
+(gdb) 
+0x00007ffff7a62117	78	in filedoalloc.c
+(gdb) 
+0x00007ffff7a6211f	78	in filedoalloc.c
+(gdb) 
+84	in filedoalloc.c
+(gdb) 
+0x00007ffff7a62124	84	in filedoalloc.c
+(gdb) 
+0x00007ffff7a62126	84	in filedoalloc.c
+(gdb) 
+0x00007ffff7a6212c	84	in filedoalloc.c
+(gdb) 
+IO_validate_vtable (vtable=0x7ffff7dcc2a0 <_IO_file_jumps>) at libioP.h:870
+870	libioP.h: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7a6213a	870	in libioP.h
+(gdb) 
+0x00007ffff7a62141	870	in libioP.h
+(gdb) 
+872	in libioP.h
+(gdb) 
+0x00007ffff7a62147	872	in libioP.h
+(gdb) 
+873	in libioP.h
+(gdb) 
+0x00007ffff7a6214d	873	in libioP.h
+(gdb) 
+__GI__IO_file_doallocate (fp=0x7ffff7dd0760 <_IO_2_1_stdout_>) at filedoalloc.c:84
+84	filedoalloc.c: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7a62156	84	in filedoalloc.c
+(gdb) 
+0x00007ffff7a62159	84	in filedoalloc.c
+(gdb) 
+__GI__IO_file_stat (fp=0x7ffff7dd0760 <_IO_2_1_stdout_>, st=0x7fffffffdd00) at fileops.c:1169
+1169	fileops.c: 没有那个文件或目录.
+(gdb) 
+1170	in fileops.c
+(gdb) 
+0x00007ffff7a6f186	1170	in fileops.c
+(gdb) 
+0x00007ffff7a6f18b	1170	in fileops.c
+(gdb) 
+__GI___fxstat (vers=1, fd=1, buf=0x7fffffffdd00)
+    at ../sysdeps/unix/sysv/linux/wordsize-64/fxstat.c:34
+34	../sysdeps/unix/sysv/linux/wordsize-64/fxstat.c: 没有那个文件或目录.
+(gdb) 
+33	in ../sysdeps/unix/sysv/linux/wordsize-64/fxstat.c
+(gdb) 
+34	in ../sysdeps/unix/sysv/linux/wordsize-64/fxstat.c
+(gdb) 
+35	in ../sysdeps/unix/sysv/linux/wordsize-64/fxstat.c
+(gdb) 
+0x00007ffff7af37b9	35	in ../sysdeps/unix/sysv/linux/wordsize-64/fxstat.c
+(gdb) 
+0x00007ffff7af37bc	35	in ../sysdeps/unix/sysv/linux/wordsize-64/fxstat.c
+(gdb) 
+0x00007ffff7af37c1	35	in ../sysdeps/unix/sysv/linux/wordsize-64/fxstat.c
+(gdb) 
+0x00007ffff7af37c3	35	in ../sysdeps/unix/sysv/linux/wordsize-64/fxstat.c
+(gdb) 
+0x00007ffff7af37c9	35	in ../sysdeps/unix/sysv/linux/wordsize-64/fxstat.c
+(gdb) 
+39	in ../sysdeps/unix/sysv/linux/wordsize-64/fxstat.c
+(gdb) 
+0x00007ffff7a6215f in __GI__IO_file_doallocate (fp=0x7ffff7dd0760 <_IO_2_1_stdout_>)
+    at filedoalloc.c:84
+84	filedoalloc.c: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7a62161	84	in filedoalloc.c
+(gdb) 
+86	in filedoalloc.c
+(gdb) 
+0x00007ffff7a62167	86	in filedoalloc.c
+(gdb) 
+0x00007ffff7a6216c	86	in filedoalloc.c
+(gdb) 
+0x00007ffff7a62171	86	in filedoalloc.c
+(gdb) 
+91	in filedoalloc.c
+(gdb) 
+gnu_dev_major (__dev=34816) at ../misc/sys/sysmacros.h:79
+79	../misc/sys/sysmacros.h: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7a621e8	79	in ../misc/sys/sysmacros.h
+(gdb) 
+0x00007ffff7a621ec	79	in ../misc/sys/sysmacros.h
+(gdb) 
+0x00007ffff7a621f0	79	in ../misc/sys/sysmacros.h
+(gdb) 
+0x00007ffff7a621f5	79	in ../misc/sys/sysmacros.h
+(gdb) 
+0x00007ffff7a621fb	79	in ../misc/sys/sysmacros.h
+(gdb) 
+__GI__IO_file_doallocate (fp=0x7ffff7dd0760 <_IO_2_1_stdout_>) at filedoalloc.c:91
+91	filedoalloc.c: 没有那个文件或目录.
+(gdb) 
+89	in filedoalloc.c
+(gdb) 
+0x00007ffff7a62205	89	in filedoalloc.c
+(gdb) 
+94	in filedoalloc.c
+(gdb) 
+0x00007ffff7a6220e	94	in filedoalloc.c
+(gdb) 
+97	in filedoalloc.c
+(gdb) 
+0x00007ffff7a62178	97	in filedoalloc.c
+(gdb) 
+0x00007ffff7a6217c	97	in filedoalloc.c
+(gdb) 
+0x00007ffff7a62182	97	in filedoalloc.c
+(gdb) 
+101	in filedoalloc.c
+(gdb) 
+0x00007ffff7a62187	101	in filedoalloc.c
+(gdb) 
+0x00007ffff7a052c0 in malloc@plt () from /lib/x86_64-linux-gnu/libc.so.6
+(gdb) 
+__GI___libc_malloc (bytes=1024) at malloc.c:3028
+3028	malloc.c: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7a7b071	3028	in malloc.c
+(gdb) 
+0x00007ffff7a7b072	3028	in malloc.c
+(gdb) 
+3033	in malloc.c
+(gdb) 
+0x00007ffff7a7b07d	3033	in malloc.c
+(gdb) 
+3034	in malloc.c
+(gdb) 
+0x00007ffff7a7b083	3034	in malloc.c
+(gdb) 
+3035	in malloc.c
+(gdb) 
+3081	in malloc.c
+(gdb) 
+0x00007ffff7a7b279	3081	in malloc.c
+(gdb) 
+0x00007ffff7a7b27a	3081	in malloc.c
+(gdb) 
+3035	in malloc.c
+(gdb) 
+malloc_hook_ini (sz=1024, caller=0x7ffff7a6218c <__GI__IO_file_doallocate+140>) at hooks.c:29
+29	hooks.c: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7a7aa41	29	in hooks.c
+(gdb) 
+0x00007ffff7a7aa42	29	in hooks.c
+(gdb) 
+0x00007ffff7a7aa44	29	in hooks.c
+(gdb) 
+0x00007ffff7a7aa47	29	in hooks.c
+(gdb) 
+ptmalloc_init () at arena.c:291
+291	arena.c: 没有那个文件或目录.
+(gdb) 
+malloc_hook_ini (sz=1024, caller=0x7ffff7a6218c <__GI__IO_file_doallocate+140>) at hooks.c:30
+30	hooks.c: 没有那个文件或目录.
+(gdb) 
+ptmalloc_init () at arena.c:291
+291	arena.c: 没有那个文件或目录.
+(gdb) 
+malloc_hook_ini (sz=1024, caller=0x7ffff7a6218c <__GI__IO_file_doallocate+140>) at hooks.c:30
+30	hooks.c: 没有那个文件或目录.
+(gdb) 
+ptmalloc_init () at arena.c:291
+291	arena.c: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7a7ac10	33	hooks.c: 没有那个文件或目录.
+(gdb) 
+ptmalloc_init () at arena.c:289
+289	arena.c: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7a753e1	289	in arena.c
+(gdb) 
+294	in arena.c
+(gdb) 
+289	in arena.c
+(gdb) 
+0x00007ffff7a753f8	289	in arena.c
+(gdb) 
+0x00007ffff7a753fd	289	in arena.c
+(gdb) 
+302	in arena.c
+(gdb) 
+0x00007ffff7a75407	302	in arena.c
+(gdb) 
+303	in arena.c
+(gdb) 
+0x00007ffff7a7567e	303	in arena.c
+(gdb) 
+0x00007ffff7a75683	303	in arena.c
+(gdb) 
+0x00007ffff7a7568a	303	in arena.c
+(gdb) 
+0x00007ffff7a7568c	303	in arena.c
+(gdb) 
+__GI__dl_addr (address=address@entry=0x7ffff7a756c0 <ptmalloc_init>, 
+    info=info@entry=0x7fffffffdc90, mapp=mapp@entry=0x7fffffffdc80, symbolp=symbolp@entry=0x0)
+    at dl-addr.c:126
+126	dl-addr.c: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7b49fb2	126	in dl-addr.c
+(gdb) 
+0x00007ffff7b49fb4	126	in dl-addr.c
+(gdb) 
+0x00007ffff7b49fb7	126	in dl-addr.c
+(gdb) 
+0x00007ffff7b49fb9	126	in dl-addr.c
+(gdb) 
+0x00007ffff7b49fbb	126	in dl-addr.c
+(gdb) 
+0x00007ffff7b49fbe	126	in dl-addr.c
+(gdb) 
+0x00007ffff7b49fbf	126	in dl-addr.c
+(gdb) 
+0x00007ffff7b49fc0	126	in dl-addr.c
+(gdb) 
+128	in dl-addr.c
+(gdb) 
+126	in dl-addr.c
+(gdb) 
+131	in dl-addr.c
+(gdb) 
+126	in dl-addr.c
+(gdb) 
+131	in dl-addr.c
+(gdb) 
+0x00007ffff7b49fdd	131	in dl-addr.c
+(gdb) 
+rtld_lock_default_lock_recursive (lock=0x7ffff7ffd968 <_rtld_global+2312>) at rtld.c:784
+784	rtld.c: 没有那个文件或目录.
+(gdb) 
+785	in rtld.c
+(gdb) 
+__GI__dl_addr (address=address@entry=0x7ffff7a756c0 <ptmalloc_init>, 
+    info=info@entry=0x7fffffffdc90, mapp=mapp@entry=0x7fffffffdc80, symbolp=symbolp@entry=0x0)
+    at dl-addr.c:133
+133	dl-addr.c: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7b49fe7	133	in dl-addr.c
+(gdb) 
+0x00007ffff7a051a0 in _dl_find_dso_for_object@plt () from /lib/x86_64-linux-gnu/libc.so.6
+(gdb) 
+0x00007ffff7a051a6 in _dl_find_dso_for_object@plt () from /lib/x86_64-linux-gnu/libc.so.6
+(gdb) 
+0x00007ffff7a051ab in _dl_find_dso_for_object@plt () from /lib/x86_64-linux-gnu/libc.so.6
+(gdb) 
+0x00007ffff7a04fd0 in ?? () from /lib/x86_64-linux-gnu/libc.so.6
+(gdb) 
+0x00007ffff7a04fd6 in ?? () from /lib/x86_64-linux-gnu/libc.so.6
+(gdb) 
+_dl_runtime_resolve_xsavec () at ../sysdeps/x86_64/dl-trampoline.h:71
+71	../sysdeps/x86_64/dl-trampoline.h: 没有那个文件或目录.
+(gdb) 
+74	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+76	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+86	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+92	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+93	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+94	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+95	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+96	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+97	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+98	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+102	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+103	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+109	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+110	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+111	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+112	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+113	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+114	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+118	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+123	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+124	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+125	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+_dl_fixup (l=0x7ffff7fde000, reloc_arg=5) at ../elf/dl-runtime.c:66
+66	../elf/dl-runtime.c: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7de4df1	66	in ../elf/dl-runtime.c
+(gdb) 
+72	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4df6	72	in ../elf/dl-runtime.c
+(gdb) 
+66	in ../elf/dl-runtime.c
+(gdb) 
+69	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4e02	69	in ../elf/dl-runtime.c
+(gdb) 
+72	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4e0d	72	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4e11	72	in ../elf/dl-runtime.c
+(gdb) 
+68	in ../elf/dl-runtime.c
+(gdb) 
+73	in ../elf/dl-runtime.c
+(gdb) 
+75	in ../elf/dl-runtime.c
+(gdb) 
+73	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4e24	73	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4e27	73	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4e2b	73	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4e2f	73	in ../elf/dl-runtime.c
+(gdb) 
+75	in ../elf/dl-runtime.c
+(gdb) 
+73	in ../elf/dl-runtime.c
+(gdb) 
+75	in ../elf/dl-runtime.c
+(gdb) 
+80	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4e41	80	in ../elf/dl-runtime.c
+(gdb) 
+84	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4e4b	84	in ../elf/dl-runtime.c
+(gdb) 
+88	in ../elf/dl-runtime.c
+(gdb) 
+95	in ../elf/dl-runtime.c
+(gdb) 
+88	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4e5e	88	in ../elf/dl-runtime.c
+(gdb) 
+92	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4e64	92	in ../elf/dl-runtime.c
+(gdb) 
+93	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4e6d	93	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4e71	93	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4e78	93	in ../elf/dl-runtime.c
+(gdb) 
+95	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4e81	95	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4e85	95	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4e88	95	in ../elf/dl-runtime.c
+(gdb) 
+102	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4e94	102	in ../elf/dl-runtime.c
+(gdb) 
+101	in ../elf/dl-runtime.c
+(gdb) 
+102	in ../elf/dl-runtime.c
+(gdb) 
+112	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4ea3	112	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4eaa	112	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4eaf	112	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4eb1	112	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4eb2	112	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4eb8	112	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4ebb	112	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4ebe	112	in ../elf/dl-runtime.c
+(gdb) 
+_dl_lookup_symbol_x (undef_name=0x7ffff79f731a "_dl_find_dso_for_object", undef_map=0x7ffff7fde000, 
+    ref=ref@entry=0x7fffffffd7e8, symbol_scope=0x7ffff7fde358, version=0x7ffff7fde8a0, 
+    type_class=type_class@entry=1, flags=1, skip_map=0x0) at dl-lookup.c:790
+790	dl-lookup.c: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7de00b2	790	in dl-lookup.c
+(gdb) 
+0x00007ffff7de00b4	790	in dl-lookup.c
+(gdb) 
+0x00007ffff7de00b7	790	in dl-lookup.c
+(gdb) 
+0x00007ffff7de00b9	790	in dl-lookup.c
+(gdb) 
+0x00007ffff7de00bb	790	in dl-lookup.c
+(gdb) 
+0x00007ffff7de00be	790	in dl-lookup.c
+(gdb) 
+0x00007ffff7de00bf	790	in dl-lookup.c
+(gdb) 
+0x00007ffff7de00c0	790	in dl-lookup.c
+(gdb) 
+0x00007ffff7de00c3	790	in dl-lookup.c
+(gdb) 
+dl_new_hash (s=0x7ffff79f731a "_dl_find_dso_for_object") at dl-lookup.c:555
+555	in dl-lookup.c
+(gdb) 
+_dl_lookup_symbol_x (undef_name=0x7ffff79f731a "_dl_find_dso_for_object", undef_map=0x7ffff7fde000, 
+    ref=ref@entry=0x7fffffffd7e8, symbol_scope=0x7ffff7fde358, version=0x7ffff7fde8a0, 
+    type_class=type_class@entry=1, flags=1, skip_map=0x0) at dl-lookup.c:790
+790	in dl-lookup.c
+(gdb) 
+0x00007ffff7de00d1	790	in dl-lookup.c
+(gdb) 
+0x00007ffff7de00d6	790	in dl-lookup.c
+(gdb) 
+0x00007ffff7de00db	790	in dl-lookup.c
+(gdb) 
+dl_new_hash (s=0x7ffff79f731a "_dl_find_dso_for_object") at dl-lookup.c:555
+555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de00e5	555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de00eb	555	in dl-lookup.c
+(gdb) 
+554	in dl-lookup.c
+(gdb) 
+0x00007ffff7de00f3	554	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0103	556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0106	556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010c	555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010e	555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0103	556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0106	556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010c	555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010e	555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0103	556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0106	556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010c	555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010e	555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0103	556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0106	556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010c	555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010e	555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0103	556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0106	556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010c	555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010e	555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0103	556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0106	556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010c	555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010e	555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0103	556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0106	556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010c	555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010e	555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0103	556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0106	556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010c	555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010e	555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0103	556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0106	556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010c	555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010e	555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0103	556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0106	556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010c	555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010e	555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0103	556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0106	556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010c	555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010e	555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0103	556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0106	556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010c	555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010e	555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0103	556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0106	556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010c	555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010e	555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0103	556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0106	556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010c	555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010e	555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0103	556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0106	556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010c	555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010e	555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0103	556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0106	556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010c	555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010e	555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0103	556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0106	556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010c	555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010e	555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0103	556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0106	556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010c	555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010e	555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0103	556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0106	556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010c	555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010e	555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0103	556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0106	556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010c	555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010e	555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0103	556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0106	556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010c	555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010e	555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0103	556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0106	556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010c	555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010e	555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0103	556	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0106	556	in dl-lookup.c
+(gdb) 
+555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010c	555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de010e	555	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0110	555	in dl-lookup.c
+(gdb) 
+_dl_lookup_symbol_x (undef_name=0x7ffff79f731a "_dl_find_dso_for_object", undef_map=0x7ffff7fde000, 
+    ref=ref@entry=0x7fffffffd7e8, symbol_scope=0x7ffff7fde358, version=0x7ffff7fde8a0, 
+    type_class=type_class@entry=1, flags=1, skip_map=0x0) at dl-lookup.c:793
+793	in dl-lookup.c
+(gdb) 
+792	in dl-lookup.c
+(gdb) 
+796	in dl-lookup.c
+(gdb) 
+800	in dl-lookup.c
+(gdb) 
+792	in dl-lookup.c
+(gdb) 
+793	in dl-lookup.c
+(gdb) 
+800	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0132	800	in dl-lookup.c
+(gdb) 
+0x00007ffff7de013d	800	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0143	800	in dl-lookup.c
+(gdb) 
+805	in dl-lookup.c
+(gdb) 
+0x00007ffff7de014b	805	in dl-lookup.c
+(gdb) 
+0x00007ffff7de014e	805	in dl-lookup.c
+(gdb) 
+811	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0157	811	in dl-lookup.c
+(gdb) 
+0x00007ffff7de015b	811	in dl-lookup.c
+(gdb) 
+804	in dl-lookup.c
+(gdb) 
+0x00007ffff7de016a	804	in dl-lookup.c
+(gdb) 
+0x00007ffff7de016c	804	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0171	804	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0176	804	in dl-lookup.c
+(gdb) 
+0x00007ffff7de017e	804	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0183	804	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0188	804	in dl-lookup.c
+(gdb) 
+0x00007ffff7de018b	804	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0193	804	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0198	804	in dl-lookup.c
+(gdb) 
+813	in dl-lookup.c
+(gdb) 
+0x00007ffff7de01c6	813	in dl-lookup.c
+(gdb) 
+0x00007ffff7de01ca	813	in dl-lookup.c
+(gdb) 
+0x00007ffff7de01cb	813	in dl-lookup.c
+(gdb) 
+0x00007ffff7de01cd	813	in dl-lookup.c
+(gdb) 
+0x00007ffff7de01d4	813	in dl-lookup.c
+(gdb) 
+0x00007ffff7de01d5	813	in dl-lookup.c
+(gdb) 
+0x00007ffff7de01d7	813	in dl-lookup.c
+(gdb) 
+0x00007ffff7de01da	813	in dl-lookup.c
+(gdb) 
+0x00007ffff7de01db	813	in dl-lookup.c
+(gdb) 
+0x00007ffff7de01e0	813	in dl-lookup.c
+(gdb) 
+0x00007ffff7de01e5	813	in dl-lookup.c
+(gdb) 
+0x00007ffff7de01ea	813	in dl-lookup.c
+(gdb) 
+do_lookup_x (undef_name=undef_name@entry=0x7ffff79f731a "_dl_find_dso_for_object", 
+    new_hash=new_hash@entry=1118153045, old_hash=old_hash@entry=0x7fffffffd740, ref=0x7ffff79e7f90, 
+    result=result@entry=0x7fffffffd750, scope=0x7ffff7ffe428, i=0, version=0x7ffff7fde8a0, flags=1, 
+    skip=0x0, type_class=1, undef_map=0x7ffff7fde000) at dl-lookup.c:338
+338	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf242	338	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf244	338	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf246	338	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf248	338	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf249	338	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf24a	338	in dl-lookup.c
+(gdb) 
+339	in dl-lookup.c
+(gdb) 
+338	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf25a	338	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf25e	338	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf263	338	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf268	338	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf26d	338	in dl-lookup.c
+(gdb) 
+344	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf278	344	in dl-lookup.c
+(gdb) 
+356	in dl-lookup.c
+(gdb) 
+386	in dl-lookup.c
+(gdb) 
+345	in dl-lookup.c
+(gdb) 
+386	in dl-lookup.c
+(gdb) 
+421	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf296	421	in dl-lookup.c
+(gdb) 
+356	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf29d	356	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf2a0	356	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf2a3	356	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf2a7	356	in dl-lookup.c
+(gdb) 
+349	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf371	349	in dl-lookup.c
+(gdb) 
+352	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf37d	352	in dl-lookup.c
+(gdb) 
+356	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf382	356	in dl-lookup.c
+(gdb) 
+360	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf394	360	in dl-lookup.c
+(gdb) 
+364	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf39d	364	in dl-lookup.c
+(gdb) 
+370	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf2b6	370	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf2b8	370	in dl-lookup.c
+(gdb) 
+378	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf2c2	378	in dl-lookup.c
+(gdb) 
+379	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf2ca	379	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf2ce	379	in dl-lookup.c
+(gdb) 
+382	in dl-lookup.c
+(gdb) 
+383	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf2dd	383	in dl-lookup.c
+(gdb) 
+387	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf2e7	387	in dl-lookup.c
+(gdb) 
+390	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf2f1	390	in dl-lookup.c
+(gdb) 
+385	in dl-lookup.c
+(gdb) 
+390	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf2fe	390	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf301	390	in dl-lookup.c
+(gdb) 
+393	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf307	393	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf30a	393	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf30c	393	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf30f	393	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf312	393	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf314	393	in dl-lookup.c
+(gdb) 
+do_lookup_unique (undef_map=<optimized out>, ref=<optimized out>, strtab=<optimized out>, 
+    sym=<optimized out>, type_class=<optimized out>, result=<optimized out>, map=<optimized out>, 
+    new_hash=<optimized out>, undef_name=<optimized out>) at dl-lookup.c:294
+294	in dl-lookup.c
+(gdb) 
+do_lookup_x (undef_name=undef_name@entry=0x7ffff79f731a "_dl_find_dso_for_object", 
+    new_hash=new_hash@entry=1118153045, old_hash=old_hash@entry=0x7fffffffd740, ref=0x7ffff79e7f90, 
+    result=result@entry=0x7fffffffd750, scope=<optimized out>, i=<optimized out>, 
+    version=0x7ffff7fde8a0, flags=1, skip=0x0, type_class=1, undef_map=0x7ffff7fde000)
+    at dl-lookup.c:540
+540	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf328	540	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf32a	540	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf32c	540	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf32e	540	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf336	540	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf33a	540	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf33d	540	in dl-lookup.c
+(gdb) 
+541	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf342	541	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf347	541	in dl-lookup.c
+(gdb) 
+_dl_name_match_p (name=0x7ffff79fb75a "ld-linux-x86-64.so.2", map=map@entry=0x7ffff7ffe170)
+    at dl-misc.c:282
+282	dl-misc.c: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7de6701	282	in dl-misc.c
+(gdb) 
+0x00007ffff7de6702	282	in dl-misc.c
+(gdb) 
+0x00007ffff7de6705	282	in dl-misc.c
+(gdb) 
+0x00007ffff7de6708	282	in dl-misc.c
+(gdb) 
+283	in dl-misc.c
+(gdb) 
+0x00007ffff7de6710	283	in dl-misc.c
+(gdb) 
+strcmp () at ../sysdeps/x86_64/strcmp.S:144
+144	../sysdeps/x86_64/strcmp.S: 没有那个文件或目录.
+(gdb) 
+145	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+147	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+148	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+169	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+170	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+171	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+172	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+173	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+174	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+175	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+176	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+197	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+198	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+199	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+200	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+201	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+202	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+203	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+2211	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+2217	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+2218	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+2226	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+strcmp () at ../sysdeps/x86_64/strcmp.S:2227
+2227	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+0x00007ffff7de6715 in _dl_name_match_p (name=0x7ffff79fb75a "ld-linux-x86-64.so.2", 
+    map=map@entry=0x7ffff7ffe170) at dl-misc.c:283
+283	dl-misc.c: 没有那个文件或目录.
+(gdb) 
+284	in dl-misc.c
+(gdb) 
+283	in dl-misc.c
+(gdb) 
+286	in dl-misc.c
+(gdb) 
+288	in dl-misc.c
+(gdb) 
+0x00007ffff7de6725	288	in dl-misc.c
+(gdb) 
+289	in dl-misc.c
+(gdb) 
+0x00007ffff7de674c	289	in dl-misc.c
+(gdb) 
+0x00007ffff7de674f	289	in dl-misc.c
+(gdb) 
+strcmp () at ../sysdeps/x86_64/strcmp.S:144
+144	../sysdeps/x86_64/strcmp.S: 没有那个文件或目录.
+(gdb) 
+145	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+147	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+148	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+169	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+170	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+171	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+172	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+173	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+174	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+175	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+176	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+197	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+198	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+199	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+200	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+201	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+202	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+203	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+2211	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+2217	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+2218	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+2226	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+strcmp () at ../sysdeps/x86_64/strcmp.S:2227
+2227	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+0x00007ffff7de6754 in _dl_name_match_p (name=0x7ffff79fb75a "ld-linux-x86-64.so.2", 
+    map=map@entry=0x7ffff7ffe170) at dl-misc.c:289
+289	dl-misc.c: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7de6756	289	in dl-misc.c
+(gdb) 
+292	in dl-misc.c
+(gdb) 
+288	in dl-misc.c
+(gdb) 
+0x00007ffff7de6747	288	in dl-misc.c
+(gdb) 
+294	in dl-misc.c
+(gdb) 
+295	in dl-misc.c
+(gdb) 
+0x00007ffff7de6736	295	in dl-misc.c
+(gdb) 
+0x00007ffff7de6738	295	in dl-misc.c
+(gdb) 
+0x00007ffff7de6739	295	in dl-misc.c
+(gdb) 
+0x00007ffff7de673a	295	in dl-misc.c
+(gdb) 
+0x00007ffff7ddf34c in do_lookup_x (
+    undef_name=undef_name@entry=0x7ffff79f731a "_dl_find_dso_for_object", 
+    new_hash=new_hash@entry=1118153045, old_hash=old_hash@entry=0x7fffffffd740, ref=0x7ffff79e7f90, 
+    result=result@entry=0x7fffffffd750, scope=<optimized out>, i=<optimized out>, 
+    version=0x7ffff7fde8a0, flags=1, skip=0x0, type_class=1, undef_map=0x7ffff7fde000)
+    at dl-lookup.c:541
+541	dl-lookup.c: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7ddf34e	541	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf353	541	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf359	541	in dl-lookup.c
+(gdb) 
+544	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf364	544	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf367	544	in dl-lookup.c
+(gdb) 
+349	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf371	349	in dl-lookup.c
+(gdb) 
+352	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf37d	352	in dl-lookup.c
+(gdb) 
+356	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf382	356	in dl-lookup.c
+(gdb) 
+360	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf394	360	in dl-lookup.c
+(gdb) 
+364	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf39d	364	in dl-lookup.c
+(gdb) 
+370	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf2b6	370	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf2b8	370	in dl-lookup.c
+(gdb) 
+378	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf2c2	378	in dl-lookup.c
+(gdb) 
+379	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf2ca	379	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf2ce	379	in dl-lookup.c
+(gdb) 
+382	in dl-lookup.c
+(gdb) 
+383	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf2dd	383	in dl-lookup.c
+(gdb) 
+387	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf2e7	387	in dl-lookup.c
+(gdb) 
+390	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf2f1	390	in dl-lookup.c
+(gdb) 
+385	in dl-lookup.c
+(gdb) 
+390	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf2fe	390	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf301	390	in dl-lookup.c
+(gdb) 
+393	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf307	393	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf30a	393	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf30c	393	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf30f	393	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf312	393	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf314	393	in dl-lookup.c
+(gdb) 
+do_lookup_unique (undef_map=<optimized out>, ref=<optimized out>, strtab=<optimized out>, 
+    sym=<optimized out>, type_class=<optimized out>, result=<optimized out>, map=<optimized out>, 
+    new_hash=<optimized out>, undef_name=<optimized out>) at dl-lookup.c:294
+294	in dl-lookup.c
+(gdb) 
+do_lookup_x (undef_name=undef_name@entry=0x7ffff79f731a "_dl_find_dso_for_object", 
+    new_hash=new_hash@entry=1118153045, old_hash=old_hash@entry=0x7fffffffd740, ref=0x7ffff79e7f90, 
+    result=result@entry=0x7fffffffd750, scope=<optimized out>, i=<optimized out>, 
+    version=0x7ffff7fde8a0, flags=1, skip=0x0, type_class=1, undef_map=0x7ffff7fde000)
+    at dl-lookup.c:540
+540	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf328	540	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf32a	540	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf32c	540	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf32e	540	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf336	540	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf33a	540	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf33d	540	in dl-lookup.c
+(gdb) 
+541	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf342	541	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf347	541	in dl-lookup.c
+(gdb) 
+_dl_name_match_p (name=0x7ffff79fb75a "ld-linux-x86-64.so.2", map=map@entry=0x7ffff7fde000)
+    at dl-misc.c:282
+282	dl-misc.c: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7de6701	282	in dl-misc.c
+(gdb) 
+0x00007ffff7de6702	282	in dl-misc.c
+(gdb) 
+0x00007ffff7de6705	282	in dl-misc.c
+(gdb) 
+0x00007ffff7de6708	282	in dl-misc.c
+(gdb) 
+283	in dl-misc.c
+(gdb) 
+0x00007ffff7de6710	283	in dl-misc.c
+(gdb) 
+strcmp () at ../sysdeps/x86_64/strcmp.S:144
+144	../sysdeps/x86_64/strcmp.S: 没有那个文件或目录.
+(gdb) 
+145	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+147	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+148	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+169	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+170	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+171	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+172	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+173	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+174	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+175	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+176	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+197	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+198	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+199	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+200	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+201	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+202	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+203	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+2211	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+2217	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+2218	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+2226	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+strcmp () at ../sysdeps/x86_64/strcmp.S:2227
+2227	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+0x00007ffff7de6715 in _dl_name_match_p (name=0x7ffff79fb75a "ld-linux-x86-64.so.2", 
+    map=map@entry=0x7ffff7fde000) at dl-misc.c:283
+283	dl-misc.c: 没有那个文件或目录.
+(gdb) 
+284	in dl-misc.c
+(gdb) 
+283	in dl-misc.c
+(gdb) 
+286	in dl-misc.c
+(gdb) 
+288	in dl-misc.c
+(gdb) 
+0x00007ffff7de6725	288	in dl-misc.c
+(gdb) 
+289	in dl-misc.c
+(gdb) 
+0x00007ffff7de674c	289	in dl-misc.c
+(gdb) 
+0x00007ffff7de674f	289	in dl-misc.c
+(gdb) 
+strcmp () at ../sysdeps/x86_64/strcmp.S:144
+144	../sysdeps/x86_64/strcmp.S: 没有那个文件或目录.
+(gdb) 
+145	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+147	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+148	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+169	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+170	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+171	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+172	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+173	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+174	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+175	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+176	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+197	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+198	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+199	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+200	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+201	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+202	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+203	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+2211	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+2217	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+2218	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+2226	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+strcmp () at ../sysdeps/x86_64/strcmp.S:2227
+2227	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+0x00007ffff7de6754 in _dl_name_match_p (name=0x7ffff79fb75a "ld-linux-x86-64.so.2", 
+    map=map@entry=0x7ffff7fde000) at dl-misc.c:289
+289	dl-misc.c: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7de6756	289	in dl-misc.c
+(gdb) 
+292	in dl-misc.c
+(gdb) 
+288	in dl-misc.c
+(gdb) 
+0x00007ffff7de6747	288	in dl-misc.c
+(gdb) 
+294	in dl-misc.c
+(gdb) 
+295	in dl-misc.c
+(gdb) 
+0x00007ffff7de6736	295	in dl-misc.c
+(gdb) 
+0x00007ffff7de6738	295	in dl-misc.c
+(gdb) 
+0x00007ffff7de6739	295	in dl-misc.c
+(gdb) 
+0x00007ffff7de673a	295	in dl-misc.c
+(gdb) 
+0x00007ffff7ddf34c in do_lookup_x (
+    undef_name=undef_name@entry=0x7ffff79f731a "_dl_find_dso_for_object", 
+    new_hash=new_hash@entry=1118153045, old_hash=old_hash@entry=0x7fffffffd740, ref=0x7ffff79e7f90, 
+    result=result@entry=0x7fffffffd750, scope=<optimized out>, i=<optimized out>, 
+    version=0x7ffff7fde8a0, flags=1, skip=0x0, type_class=1, undef_map=0x7ffff7fde000)
+    at dl-lookup.c:541
+541	dl-lookup.c: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7ddf34e	541	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf353	541	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf359	541	in dl-lookup.c
+(gdb) 
+544	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf364	544	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf367	544	in dl-lookup.c
+(gdb) 
+349	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf371	349	in dl-lookup.c
+(gdb) 
+352	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf37d	352	in dl-lookup.c
+(gdb) 
+356	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf382	356	in dl-lookup.c
+(gdb) 
+360	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf394	360	in dl-lookup.c
+(gdb) 
+364	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf39d	364	in dl-lookup.c
+(gdb) 
+370	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf2b6	370	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf2b8	370	in dl-lookup.c
+(gdb) 
+378	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf2c2	378	in dl-lookup.c
+(gdb) 
+379	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf2ca	379	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf2ce	379	in dl-lookup.c
+(gdb) 
+382	in dl-lookup.c
+(gdb) 
+383	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf2dd	383	in dl-lookup.c
+(gdb) 
+387	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf2e7	387	in dl-lookup.c
+(gdb) 
+390	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf2f1	390	in dl-lookup.c
+(gdb) 
+385	in dl-lookup.c
+(gdb) 
+390	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf2fe	390	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf301	390	in dl-lookup.c
+(gdb) 
+393	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf307	393	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf30a	393	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf30c	393	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf30f	393	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf312	393	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf314	393	in dl-lookup.c
+(gdb) 
+397	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf69a	397	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf69d	397	in dl-lookup.c
+(gdb) 
+396	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf6a7	396	in dl-lookup.c
+(gdb) 
+398	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf6ac	398	in dl-lookup.c
+(gdb) 
+400	in dl-lookup.c
+(gdb) 
+check_match (num_versions=<optimized out>, versioned_sym=<optimized out>, map=<optimized out>, 
+    strtab=<optimized out>, symidx=<optimized out>, sym=<optimized out>, 
+    type_class=<optimized out>, flags=<optimized out>, version=<optimized out>, 
+    ref=<optimized out>, undef_name=<optimized out>) at dl-lookup.c:90
+90	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf6c1	90	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf6c4	90	in dl-lookup.c
+(gdb) 
+do_lookup_x (undef_name=undef_name@entry=0x7ffff79f731a "_dl_find_dso_for_object", 
+    new_hash=new_hash@entry=1118153045, old_hash=old_hash@entry=0x7fffffffd740, ref=0x7ffff79e7f90, 
+    result=result@entry=0x7fffffffd750, scope=<optimized out>, i=2, version=0x7ffff7fde8a0, 
+    flags=1, skip=0x0, type_class=1, undef_map=0x7ffff7fde000) at dl-lookup.c:375
+375	in dl-lookup.c
+(gdb) 
+check_match (num_versions=<optimized out>, versioned_sym=<optimized out>, map=<optimized out>, 
+    strtab=<optimized out>, symidx=<optimized out>, sym=<optimized out>, 
+    type_class=<optimized out>, flags=<optimized out>, version=<optimized out>, 
+    ref=<optimized out>, undef_name=<optimized out>) at dl-lookup.c:90
+90	in dl-lookup.c
+(gdb) 
+do_lookup_x (undef_name=undef_name@entry=0x7ffff79f731a "_dl_find_dso_for_object", 
+    new_hash=new_hash@entry=1118153045, old_hash=old_hash@entry=0x7fffffffd740, ref=0x7ffff79e7f90, 
+    result=result@entry=0x7fffffffd750, scope=<optimized out>, i=2, version=0x7ffff7fde8a0, 
+    flags=1, skip=0x0, type_class=1, undef_map=0x7ffff7fde000) at dl-lookup.c:374
+374	in dl-lookup.c
+(gdb) 
+check_match (num_versions=<optimized out>, versioned_sym=<optimized out>, map=<optimized out>, 
+    strtab=<optimized out>, symidx=<optimized out>, sym=<optimized out>, 
+    type_class=<optimized out>, flags=<optimized out>, version=<optimized out>, 
+    ref=<optimized out>, undef_name=<optimized out>) at dl-lookup.c:90
+90	in dl-lookup.c
+(gdb) 
+do_lookup_x (undef_name=undef_name@entry=0x7ffff79f731a "_dl_find_dso_for_object", 
+    new_hash=new_hash@entry=1118153045, old_hash=old_hash@entry=0x7fffffffd740, ref=0x7ffff79e7f90, 
+    result=result@entry=0x7fffffffd750, scope=<optimized out>, i=2, version=0x7ffff7fde8a0, 
+    flags=1, skip=0x0, type_class=1, undef_map=0x7ffff7fde000) at dl-lookup.c:400
+400	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf6ea	400	in dl-lookup.c
+(gdb) 
+check_match (num_versions=<optimized out>, versioned_sym=<optimized out>, map=<optimized out>, 
+    strtab=<optimized out>, symidx=<optimized out>, sym=<optimized out>, 
+    type_class=<optimized out>, flags=<optimized out>, version=<optimized out>, 
+    ref=<optimized out>, undef_name=<optimized out>) at dl-lookup.c:90
+90	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf6f3	90	in dl-lookup.c
+(gdb) 
+do_lookup_x (undef_name=undef_name@entry=0x7ffff79f731a "_dl_find_dso_for_object", 
+    new_hash=new_hash@entry=1118153045, old_hash=old_hash@entry=0x7fffffffd740, ref=0x7ffff79e7f90, 
+    result=result@entry=0x7fffffffd750, scope=<optimized out>, i=<optimized out>, 
+    version=0x7ffff7fde8a0, flags=1, skip=0x0, type_class=1, undef_map=0x7ffff7fde000)
+    at dl-lookup.c:403
+403	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf709	403	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf70c	403	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf710	403	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf713	403	in dl-lookup.c
+(gdb) 
+405	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf718	405	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf71d	405	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf721	405	in dl-lookup.c
+(gdb) 
+407	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf726	407	in dl-lookup.c
+(gdb) 
+406	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf72f	406	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf734	406	in dl-lookup.c
+(gdb) 
+check_match (num_versions=<synthetic pointer>, versioned_sym=<synthetic pointer>, 
+    map=0x7ffff7ffd9f0 <_rtld_global+2448>, strtab=0x7ffff7dd56f0 "", symidx=15, 
+    sym=0x7ffff7dd5528, type_class=1, flags=1, version=0x7ffff7fde8a0, ref=0x7ffff79e7f90, 
+    undef_name=0x7ffff79f731a "_dl_find_dso_for_object") at dl-lookup.c:78
+78	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf73c	78	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf743	78	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf745	78	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf74b	78	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf74e	78	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf755	78	in dl-lookup.c
+(gdb) 
+90	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf75c	90	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf75e	90	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf761	90	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf768	90	in dl-lookup.c
+(gdb) 
+93	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf76f	93	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf771	93	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf774	93	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf779	93	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf77e	93	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf783	93	in dl-lookup.c
+(gdb) 
+strcmp () at ../sysdeps/x86_64/strcmp.S:144
+144	../sysdeps/x86_64/strcmp.S: 没有那个文件或目录.
+(gdb) 
+145	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+147	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+148	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+169	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+170	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+171	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+172	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+173	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+174	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+175	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+176	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+197	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+198	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+199	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+200	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+201	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+202	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+203	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+208	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+209	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+218	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+219	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+220	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+221	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+222	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+223	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+224	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+225	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+226	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+231	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+232	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+233	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+234	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+235	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+236	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+1071	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+1072	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+1073	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+1074	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+1075	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+1077	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+1078	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+1079	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+1080	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+1081	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+1082	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+1083	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+1084	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+1088	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+1089	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+1090	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+1096	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+1097	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+1098	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+0x00007ffff7df2c67	1098	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+1102	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+1103	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+1106	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+1107	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+1108	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+1111	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+1112	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+1113	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+1119	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+1120	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+1121	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+1122	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+1123	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+1124	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+2200	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+2202	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+2203	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+2204	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+2205	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+2211	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+2217	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+2218	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+2226	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+strcmp () at ../sysdeps/x86_64/strcmp.S:2227
+2227	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+0x00007ffff7ddf788 in check_match (num_versions=<synthetic pointer>, 
+    versioned_sym=<synthetic pointer>, map=0x7ffff7ffd9f0 <_rtld_global+2448>, 
+    strtab=0x7ffff7dd56f0 "", symidx=15, sym=0x7ffff7dd5528, type_class=1, flags=1, 
+    version=0x7ffff7fde8a0, ref=0x7ffff79e7f90, undef_name=0x7ffff79f731a "_dl_find_dso_for_object")
+    at dl-lookup.c:93
+93	dl-lookup.c: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7ddf78a	93	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf78f	93	in dl-lookup.c
+(gdb) 
+98	in dl-lookup.c
+(gdb) 
+97	in dl-lookup.c
+(gdb) 
+98	in dl-lookup.c
+(gdb) 
+100	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf7ae	100	in dl-lookup.c
+(gdb) 
+119	in dl-lookup.c
+(gdb) 
+120	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf7bb	120	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf7c0	120	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf7c4	120	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf7cb	120	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf7cf	120	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf7d7	120	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf7da	120	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf7dd	120	in dl-lookup.c
+(gdb) 
+121	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddff4b	121	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddff4e	121	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddff56	121	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddff5a	121	in dl-lookup.c
+(gdb) 
+strcmp () at ../sysdeps/x86_64/strcmp.S:144
+144	../sysdeps/x86_64/strcmp.S: 没有那个文件或目录.
+(gdb) 
+145	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+147	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+148	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+169	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+170	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+171	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+172	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+173	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+174	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+175	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+176	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+197	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+198	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+199	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+200	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+201	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+202	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+203	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+2211	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+2217	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+2218	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+2226	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+strcmp () at ../sysdeps/x86_64/strcmp.S:2227
+2227	in ../sysdeps/x86_64/strcmp.S
+(gdb) 
+0x00007ffff7ddff5f in check_match (num_versions=<synthetic pointer>, 
+    versioned_sym=<synthetic pointer>, map=0x7ffff7ffd9f0 <_rtld_global+2448>, 
+    strtab=0x7ffff7dd56f0 "", symidx=15, sym=0x7ffff7dd5528, type_class=1, flags=1, 
+    version=0x7ffff7fde8a0, ref=0x7ffff79e7f90, undef_name=0x7ffff79f731a "_dl_find_dso_for_object")
+    at dl-lookup.c:121
+121	dl-lookup.c: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7ddff61	121	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddff65	121	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddff6d	121	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddff73	121	in dl-lookup.c
+(gdb) 
+do_lookup_x (undef_name=undef_name@entry=0x7ffff79f731a "_dl_find_dso_for_object", 
+    new_hash=new_hash@entry=1118153045, old_hash=old_hash@entry=0x7fffffffd740, ref=0x7ffff79e7f90, 
+    result=result@entry=0x7fffffffd750, scope=<optimized out>, i=<optimized out>, 
+    version=0x7ffff7fde8a0, flags=1, skip=0x0, type_class=1, undef_map=0x7ffff7fde000)
+    at dl-lookup.c:452
+452	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf806	452	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf809	452	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf80c	452	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf80f	452	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf812	452	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf817	452	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf81c	452	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf824	452	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf82c	452	in dl-lookup.c
+(gdb) 
+dl_symbol_visibility_binds_local_p (sym=<optimized out>) at ../sysdeps/generic/ldsodefs.h:102
+102	../sysdeps/generic/ldsodefs.h: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7ddf56e	102	in ../sysdeps/generic/ldsodefs.h
+(gdb) 
+0x00007ffff7ddf571	102	in ../sysdeps/generic/ldsodefs.h
+(gdb) 
+do_lookup_x (undef_name=undef_name@entry=0x7ffff79f731a "_dl_find_dso_for_object", 
+    new_hash=new_hash@entry=1118153045, old_hash=old_hash@entry=0x7fffffffd740, ref=0x7ffff79e7f90, 
+    result=result@entry=0x7fffffffd750, scope=<optimized out>, i=<optimized out>, 
+    version=0x7ffff7fde8a0, flags=1, skip=0x0, type_class=1, undef_map=0x7ffff7fde000)
+    at dl-lookup.c:503
+503	dl-lookup.c: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7ddf577	503	in dl-lookup.c
+(gdb) 
+506	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf57e	506	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf581	506	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf583	506	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf589	506	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf58b	506	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf591	506	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf593	506	in dl-lookup.c
+(gdb) 
+522	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf642	522	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf647	522	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf64c	522	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf650	522	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf654	522	in dl-lookup.c
+(gdb) 
+524	in dl-lookup.c
+(gdb) 
+548	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf663	548	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf664	548	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf665	548	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf667	548	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf669	548	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf66b	548	in dl-lookup.c
+(gdb) 
+0x00007ffff7ddf66d	548	in dl-lookup.c
+(gdb) 
+_dl_lookup_symbol_x (undef_name=0x7ffff79f731a "_dl_find_dso_for_object", undef_map=0x7ffff7fde000, 
+    ref=ref@entry=0x7fffffffd7e8, symbol_scope=0x7ffff7fde358, version=0x7ffff7fde8a0, 
+    type_class=type_class@entry=1, flags=1, skip_map=<optimized out>) at dl-lookup.c:816
+816	in dl-lookup.c
+(gdb) 
+0x00007ffff7de01f3	816	in dl-lookup.c
+(gdb) 
+0x00007ffff7de01f5	816	in dl-lookup.c
+(gdb) 
+0x00007ffff7de01f7	816	in dl-lookup.c
+(gdb) 
+0x00007ffff7de01fb	816	in dl-lookup.c
+(gdb) 
+841	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0204	841	in dl-lookup.c
+(gdb) 
+865	in dl-lookup.c
+(gdb) 
+0x00007ffff7de020d	865	in dl-lookup.c
+(gdb) 
+0x00007ffff7de020f	865	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0213	865	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0216	865	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0218	865	in dl-lookup.c
+(gdb) 
+0x00007ffff7de021a	865	in dl-lookup.c
+(gdb) 
+896	in dl-lookup.c
+(gdb) 
+905	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0229	905	in dl-lookup.c
+(gdb) 
+0x00007ffff7de022c	905	in dl-lookup.c
+(gdb) 
+0x00007ffff7de022e	905	in dl-lookup.c
+(gdb) 
+919	in dl-lookup.c
+(gdb) 
+0x00007ffff7de023b	919	in dl-lookup.c
+(gdb) 
+0x00007ffff7de023d	919	in dl-lookup.c
+(gdb) 
+922	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0249	922	in dl-lookup.c
+(gdb) 
+0x00007ffff7de024e	922	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0254	922	in dl-lookup.c
+(gdb) 
+927	in dl-lookup.c
+(gdb) 
+929	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0264	929	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0267	929	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0268	929	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0269	929	in dl-lookup.c
+(gdb) 
+0x00007ffff7de026b	929	in dl-lookup.c
+(gdb) 
+0x00007ffff7de026d	929	in dl-lookup.c
+(gdb) 
+0x00007ffff7de026f	929	in dl-lookup.c
+(gdb) 
+0x00007ffff7de0271	929	in dl-lookup.c
+(gdb) 
+0x00007ffff7de4ec3 in _dl_fixup (l=<optimized out>, reloc_arg=<optimized out>)
+    at ../elf/dl-runtime.c:112
+112	../elf/dl-runtime.c: 没有那个文件或目录.
+(gdb) 
+116	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4ece	116	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4ed0	116	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4ed1	116	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4ed2	116	in ../elf/dl-runtime.c
+(gdb) 
+126	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4ed9	126	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4edb	126	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4ede	126	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4ee0	126	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4ee3	126	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4ee5	126	in ../elf/dl-runtime.c
+(gdb) 
+142	in ../elf/dl-runtime.c
+(gdb) 
+134	in ../elf/dl-runtime.c
+(gdb) 
+142	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4ef3	142	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4ef6	142	in ../elf/dl-runtime.c
+(gdb) 
+146	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4efe	146	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4f00	146	in ../elf/dl-runtime.c
+(gdb) 
+elf_machine_fixup_plt (map=<optimized out>, t=<optimized out>, refsym=<optimized out>, 
+    sym=0x7ffff7dd5528, reloc=<optimized out>, value=140737351947840, reloc_addr=0x7ffff7dcf0f8)
+    at ../sysdeps/x86_64/dl-machine.h:242
+242	../sysdeps/x86_64/dl-machine.h: 没有那个文件或目录.
+(gdb) 
+_dl_fixup (l=<optimized out>, reloc_arg=<optimized out>) at ../elf/dl-runtime.c:150
+150	../elf/dl-runtime.c: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7de4f09	150	in ../elf/dl-runtime.c
+(gdb) 
+0x00007ffff7de4f0a	150	in ../elf/dl-runtime.c
+(gdb) 
+_dl_runtime_resolve_xsavec () at ../sysdeps/x86_64/dl-trampoline.h:126
+126	../sysdeps/x86_64/dl-trampoline.h: 没有那个文件或目录.
+(gdb) 
+131	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+132	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+133	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+135	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+136	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+137	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+138	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+139	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+140	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+141	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+143	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+145	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+149	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+152	in ../sysdeps/x86_64/dl-trampoline.h
+(gdb) 
+__GI__dl_find_dso_for_object (addr=addr@entry=140737348327104) at dl-open.c:176
+176	dl-open.c: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7de9642	176	in dl-open.c
+(gdb) 
+0x00007ffff7de9644	176	in dl-open.c
+(gdb) 
+0x00007ffff7de9645	176	in dl-open.c
+(gdb) 
+0x00007ffff7de9646	176	in dl-open.c
+(gdb) 
+__GI__dl_find_dso_for_object (addr=<optimized out>) at dl-open.c:180
+180	in dl-open.c
+(gdb) 
+0x00007ffff7de9651	180	in dl-open.c
+(gdb) 
+0x00007ffff7de9654	180	in dl-open.c
+(gdb) 
+0x00007ffff7de9656	180	in dl-open.c
+(gdb) 
+0x00007ffff7de965d	180	in dl-open.c
+(gdb) 
+0x00007ffff7de9660	180	in dl-open.c
+(gdb) 
+181	in dl-open.c
+(gdb) 
+0x00007ffff7de9667	181	in dl-open.c
+(gdb) 
+0x00007ffff7de966a	181	in dl-open.c
+(gdb) 
+0x00007ffff7de966c	181	in dl-open.c
+(gdb) 
+182	in dl-open.c
+(gdb) 
+0x00007ffff7de9677	182	in dl-open.c
+(gdb) 
+0x00007ffff7de9679	182	in dl-open.c
+(gdb) 
+0x00007ffff7de9680	182	in dl-open.c
+(gdb) 
+181	in dl-open.c
+(gdb) 
+0x00007ffff7de969e	181	in dl-open.c
+(gdb) 
+0x00007ffff7de96a1	181	in dl-open.c
+(gdb) 
+182	in dl-open.c
+(gdb) 
+0x00007ffff7de9677	182	in dl-open.c
+(gdb) 
+181	in dl-open.c
+(gdb) 
+0x00007ffff7de969e	181	in dl-open.c
+(gdb) 
+0x00007ffff7de96a1	181	in dl-open.c
+(gdb) 
+182	in dl-open.c
+(gdb) 
+0x00007ffff7de9677	182	in dl-open.c
+(gdb) 
+0x00007ffff7de9679	182	in dl-open.c
+(gdb) 
+0x00007ffff7de9680	182	in dl-open.c
+(gdb) 
+183	in dl-open.c
+(gdb) 
+0x00007ffff7de9689	183	in dl-open.c
+(gdb) 
+186	in dl-open.c
+(gdb) 
+0x00007ffff7de96d4	186	in dl-open.c
+(gdb) 
+__GI__dl_find_dso_for_object (addr=addr@entry=140737348327104) at dl-open.c:190
+190	in dl-open.c
+(gdb) 
+0x00007ffff7de96da	190	in dl-open.c
+(gdb) 
+0x00007ffff7de96dd	190	in dl-open.c
+(gdb) 
+0x00007ffff7de96de	190	in dl-open.c
+(gdb) 
+0x00007ffff7de96df	190	in dl-open.c
+(gdb) 
+0x00007ffff7de96e1	190	in dl-open.c
+(gdb) 
+0x00007ffff7de96e3	190	in dl-open.c
+(gdb) 
+__GI__dl_addr (address=address@entry=0x7ffff7a756c0 <ptmalloc_init>, 
+    info=info@entry=0x7fffffffdc90, mapp=mapp@entry=0x7fffffffdc80, symbolp=symbolp@entry=0x0)
+    at dl-addr.c:135
+135	dl-addr.c: 没有那个文件或目录.
+(gdb) 
+0x00007ffff7b49fef	135	in dl-addr.c
+(gdb) 
+0x00007ffff7b49ff5	135	in dl-addr.c
+(gdb) 
+determine_info (symbolp=0x0, mapp=0x7fffffffdc80, info=0x7fffffffdc90, match=0x7ffff7fde000, 
+    addr=140737348327104) at dl-addr.c:30
+30	in dl-addr.c
+(gdb) 
+31	in dl-addr.c
+(gdb) 
+30	in dl-addr.c
+(gdb) 
+31	in dl-addr.c
+(gdb) 
+34	in dl-addr.c
+(gdb) 
+0x00007ffff7b4a00e	34	in dl-addr.c
+(gdb) 
+39	in dl-addr.c
+
